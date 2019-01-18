@@ -6,6 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Formatted/stillworksthere.git"
+  },
   "author": "formatted",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://github.com/Formatted/stillworksthere",
+  "dependencies": {
+    "nightmare": "^3.0.1"
+  }
 }
