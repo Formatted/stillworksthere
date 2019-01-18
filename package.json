@@ -1,6 +1,6 @@
 {
   "name": "stillworksthere",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check if someone still has the same last job listed on linkedin",
   "main": "index.js",
   "scripts": {

@@ -13,8 +13,10 @@ module.exports = function stillworksthere(username, password, linkedinPageOfPers
         .wait('.pv-entity__secondary-title')
         .evaluate(() => document.querySelector('.pv-entity__secondary-title').textContent)
         .end()
-        .then(res => {
-            return res === nameOfOldPlace ? `Still at ${nameOfOldPlace}` : `Moved to ${comp}`;
+        .then(comp => {
+            let answ = comp === nameOfOldPlace ? `Still at ${nameOfOldPlace}` : `Moved to ${comp}`;
+            console.log(answ);
+            return answ
         })
         .catch(err => {
             return `Search failed: ${err}`
